@@ -1,4 +1,5 @@
 import React from "react";
+import { MdLocationOn} from "react-icons/md";
 
 export default function Main(props) {
     console.log(props)
@@ -9,7 +10,7 @@ export default function Main(props) {
         <div className="main--content">
           <div className="main--info">
             <span>
-              <img src="../Images/map.png" className="main--info_img" />
+            <MdLocationOn className="main--info_img"/>
             </span>
             <h4 className="main--info_place">{props.location}</h4>
             <a href={props.googleMapsUrl} className="main--info_googlemap">view on Google Maps</a>

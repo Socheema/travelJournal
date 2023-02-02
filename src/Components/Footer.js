@@ -1,4 +1,8 @@
 import React from "react";
+import { FaFacebook } from "react-icons/fa";
+import { FaTwitter } from "react-icons/fa";
+import { FaLinkedin} from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa";
 
 export default function Footer() {
   return (
@@ -6,22 +10,22 @@ export default function Footer() {
       <ul>
         <li>
           <a href="">
-            <img src="../Images/facebook.png" className="social--link" />{" "}
+           <FaFacebook className="social--link"/>
           </a>
         </li>
         <li>
           <a href="">
-            <img src="../Images/linkedin.png" className="social--link" />{" "}
+          <FaInstagram className="social--link"/>
           </a>
         </li>
         <li>
           <a href="">
-            <img src="../Images/twitter.png" className="social--link" />{" "}
+          <FaTwitter className="social--link"/>
           </a>
         </li>
         <li>
           <a href="">
-            <img src="../Images/instagram.png" className="social--link" />{" "}
+          <FaLinkedin  className="social--link"/>
           </a>
         </li>
       </ul>
